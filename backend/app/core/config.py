@@ -8,13 +8,16 @@ class Settings(BaseSettings):
     API_PREFIX: str = "/api"
     DEBUG: bool = True
     
+   
     # CORS
     CORS_ORIGINS: List[str] = [
         "http://localhost:5173",
         "http://127.0.0.1:5173",
         "http://localhost:3000",
-        "http://127.0.0.1:3000"
+        "http://127.0.0.1:3000",
+        "https://travel-wise-8y489b374-niteshsen018-8935s-projects.vercel.app"
     ]
+
     
     # Generative AI Provider settings
     AI_PROVIDER: str = "demo"  # "demo", "openai", "gemini", "anthropic"
