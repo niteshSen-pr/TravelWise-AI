@@ -1,0 +1,104 @@
+# ====================================================
+# Environment & Secret Files (CRITICAL - DO NOT COMMIT)
+# ====================================================
+.env
+.env.*
+*.env
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+*.local
+*.development.local
+*.test.local
+*.production.local
+
+# Preserve example configuration templates
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Credentials & Private Keys
+*.pem
+*.key
+*.cert
+*.crt
+id_rsa
+id_dsa
+*.keystore
+*.pfx
+
+# ====================================================
+# Python & Virtual Environments
+# ====================================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing, Coverage & Type Check Caches
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+
+# ====================================================
+# Node & Frontend Build Outputs
+# ====================================================
+node_modules/
+*/node_modules/
+dist/
+*/dist/
+dist-ssr/
+*/dist-ssr/
+.cache/
+*/.cache/
+.eslintcache
+
+# Package Manager Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ====================================================
+# Database Files
+# ====================================================
+*.sqlite
+*.sqlite3
+*.db
+
+# ====================================================
+# Operating System & IDE Files
+# ====================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
